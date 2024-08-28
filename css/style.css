@@ -1,0 +1,56 @@
+html, body {
+  min-height: 100%;
+}
+body {
+  margin: 0;
+  font-family: "Roboto","Noto Sans TC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+a{
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.banner {
+  position: relative;
+  min-height: 100vh;
+  background-color: #fff;
+  background-image: url(../img/banner.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+.banner::before{
+  content: '';
+  background: rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.banner .enter {
+  background-color: rgba(34, 34, 34, 0.6);
+  color: #fff;
+}
+.banner .enter:hover{
+  background-color: #000;
+}
+.banner svg{
+  width: 30px;
+  fill: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.banner svg:hover{
+  fill: #000;
+}
