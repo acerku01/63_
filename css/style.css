@@ -35,6 +35,10 @@ a{
   left: 0;
   top: 0;
 }
+.banner .logo{
+  width: 15vw;
+  min-width: 130px;
+}
 .banner .enter {
   background-color: rgba(34, 34, 34, 0.6);
   color: #fff;
